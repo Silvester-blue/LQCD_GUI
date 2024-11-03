@@ -7,18 +7,19 @@ A graphical user interface (GUI) software is provided for lattice QCD simulation
 Usage Instructions
 ============
 
-1.Running the Simulation:
+In the GUI, set the required parameters (**lattice size**, $\beta$, iteration counts, CPU core numbers, and initialization scheme).
 
-Input the desired parameters (lattice size, temperatures, iterations, etc.) into the GUI fields.
-Press the Run Simulation button to start the process. In addition, this software supports parallel computing, and you can specify the number of CPU cores yourself.
+1. **Lattice Size**: The lattice size supports two input methods. When \(N_x = N_y = N_z\), only \(N_t\) and \(N_x\) need to be specified. The program will automatically interpret these as \(N_t\), \(N_x\), \(N_y\), and \(N_z\). In this example, the input ``8,4'' indicates \(N_t = 8\) and \(N_x = N_y = N_z = 4\). If \(N_x\), \(N_y\), and \(N_z\) are not equal, all four parameters must be provided, separated by commas.
 
-2.Customization:
+2. **$\beta$**: Multiple values for \(\beta\) can be input simultaneously to facilitate parallel computations. Different values should be separated by commas.
 
-Background image can be customized by replacing the background.jpg file used in the GUI.
+3. **Iteration Counts**: One complete update of all lattice points is called one sweep. Furthermore, it is computationally economical to repeat the updating step 10 times for the visited variable, since the computation of the sum of staples is costly\cite{Gattringer2010}. In this context, one iteration corresponds to 10 sweeps.
 
-3.Data Saving:
+4. **Initialization Scheme**: The default option is a cold start; however, users can also select a hot start.
 
-Results, including final lattice states and magnetization data, are automatically saved in the specified directory.
+5. **File Saving Options**: Users can specify the save directory and file name. In this example, if the file name is designated as ``Test'', all file names of generated configurations and plaquette-related files will begin with ``Test''.
+
+After completing these parameter settings, press the ``Run Simulation'' button to initiate the simulation.
 
 
 Example
