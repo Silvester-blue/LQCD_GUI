@@ -13,7 +13,7 @@ In the GUI, set the required parameters (**lattice size**, $\beta$, iteration co
 
 2. **$\beta$**: Multiple values for $\beta$ can be input simultaneously to facilitate parallel computations. Different values should be separated by commas.
 
-3. **Iteration Counts**: One complete update of all lattice points is called one sweep. Furthermore, it is computationally economical to repeat the updating step 10 times for the visited variable, since the computation of the sum of staples is costly [Gattringer et al., 2010]. In this context, one iteration corresponds to 10 sweeps.
+3. **Iteration Counts**: One complete update of all lattice points is called one sweep. Furthermore, it is computationally economical to repeat the updating step 10 times for the visited variable, since the computation of the sum of staples is costly. In this context, one iteration corresponds to 10 sweeps.
 
 4. **Initialization Scheme**: The default option is a cold start; however, users can also select a hot start.
 
