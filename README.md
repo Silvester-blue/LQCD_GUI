@@ -24,8 +24,17 @@ After completing these parameter settings, press the `Run Simulation` button to 
 <p align="center">
     <img src="images/LQCD_GUI.png"  width="500"/>
 </p>
-    
 <p align="center">
     <i>An example of software parameters</i>
 </p>
+
+Software Acquisition
+============
+The link to this GUI software is as follows:
+\url{https://drive.google.com/file/d/1f0XgoQmge_hFssSsSxWd5C0s2aYYc_qF/view?usp=sharing}.
+
+You may need the following.
+Python 3.x
+Some packages: numpy, numba, matplotlib  
+
 
