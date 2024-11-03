@@ -2,7 +2,7 @@
 
 Introduction
 ============
-A graphical user interface (GUI) software is provided for lattice QCD simulations, aimed at streamlining the process. The current version of the software employs the Metropolis algorithm with the Wilson gauge action. It is implemented in Python, utilizing Just-In-Time (JIT) compilation to enhance computational speed while preserving Python's simplicity and extensibility. Additionally, the program supports parallel computations to evaluate physical quantities at different inverse coupling \(\beta\) values, allowing users to specify the number of CPU cores. The software also enables the use of various initial conditions, as well as the specification of the save directory, file names, and background settings. Through this software, users can observe the configurations and behaviors of the plaquette under different \(\beta\) values.
+A graphical user interface (GUI) software is provided for lattice QCD simulations, aimed at streamlining the process. The current version of the software employs the Metropolis algorithm with the Wilson gauge action. It is implemented in Python, utilizing Just-In-Time (JIT) compilation to enhance computational speed while preserving Python's simplicity and extensibility. Additionally, the program supports parallel computations to evaluate physical quantities at different inverse coupling $\beta$ values, allowing users to specify the number of CPU cores. The software also enables the use of various initial conditions, as well as the specification of the save directory, file names, and background settings. Through this software, users can observe the configurations and behaviors of the plaquette under different $\beta$ values.
 
 Usage Instructions
 ============
