@@ -34,7 +34,9 @@ The link to this GUI software is as follows:
 https://drive.google.com/file/d/1f0XgoQmge_hFssSsSxWd5C0s2aYYc_qF/view?usp=sharing.
 
 You may need the following.
+
 Python 3.x
+
 Some packages: numpy, numba, matplotlib  
 
 
