@@ -7,7 +7,7 @@ A graphical user interface (GUI) software is provided for lattice QCD simulation
 Usage Instructions
 ============
 
-In the GUI, set the required parameters (**lattice size**, $\beta$, iteration counts, CPU core numbers, and initialization scheme).
+Refer to Fig.1 for an example of input parameters. In the GUI, set the required parameters (**lattice size**, $\beta$, iteration counts, CPU core numbers, and initialization scheme).
 
 1. **Lattice Size**: The lattice size supports two input methods. When $N_x = N_y = N_z$, only $N_t$ and $N_x$ need to be specified. The program will automatically interpret these as $N_t$, $N_x$, $N_y$, and $N_z$. In this example, the input `8,4` indicates $N_t = 8$ and $N_x = N_y = N_z = 4$. If $N_x$, $N_y$, and $N_z$ are not equal, all four parameters must be provided, separated by commas.
 
@@ -21,11 +21,8 @@ In the GUI, set the required parameters (**lattice size**, $\beta$, iteration co
 
 After completing these parameter settings, press the `Run Simulation` button to initiate the simulation.
 
-
-Example
-============
 <p align="center">
-    <img src="images/Ising_test.jpg"  width="500"/>
+    <img src="images/LQCD_GUI.png"  width="500"/>
 </p>
     
 <p align="center">
